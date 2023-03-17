@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.fw-600{
+  font-weight: 600;
+}
+
+.bank-image{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.no-pad{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: beige;
+  padding: 10px;
+}
